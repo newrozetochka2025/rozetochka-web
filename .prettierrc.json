@@ -1,0 +1,19 @@
+{
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "trailingComma": "all",
+  "semi": true,
+  "tabWidth": 4,
+  "singleQuote": true,
+  "printWidth": 90,
+  "jsxSingleQuote": false,
+  "overrides": [
+    {
+      "files": ["**/src/**/*.{stories}.{ts,tsx}"],
+      "options": {
+        "printWidth": 500
+      }
+    }
+  ]
+}
